@@ -1,0 +1,85 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: lightgrey;
+}
+.container{
+	margin: 0 auto;
+	width: 90%;
+}
+.logo, .navbar, .header, .service-item{
+	background-color: violet;
+}
+.nav{
+	overflow: hidden;
+}
+.logo h1{
+	font-size: 30px;
+	margin: 0;
+	text-align: center;
+	padding-top: 30px;
+	color: blue;
+}
+.logo{
+	width: 20%;
+	height: 100px;
+	float: left; 
+}
+.navbar{
+	width: 78%;
+	height: 100px;
+	float: right; 
+}
+.navbar h1{
+	font-size: 30px;
+	margin: 0;
+	text-align: center;
+	padding-top: 30px;
+	color: blue;
+}
+.header{
+	height: 250px;
+	margin: 15px 0;
+}
+.header h1{
+	font-size: 30px;
+	margin: 0;
+	text-align: center;
+	padding-top: 100px;
+	color: blue;
+}
+.intro{
+	height: 152px;
+}
+.intro h1{
+	font-size: 30px;
+	margin: 0;
+	text-align: center;
+	padding-top: 60px;
+	color: blue;
+}
+.service{
+	display: flex;
+	justify-content: space-between;
+}
+.service-item{
+	height: 300px;
+	width: 33%;
+}
+.service-item h1{
+	font-size: 30px;
+	margin: 0;
+	text-align: center;
+	padding-top: 120px;
+	color: blue;
+}
+.footer{
+	height: 90px;
+}
+.footer h1{
+	font-size: 30px;
+	margin: 0;
+	text-align: center;
+	padding-top: 30px;
+	color: blue;
+}
